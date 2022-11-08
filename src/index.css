@@ -1,0 +1,65 @@
+body{
+  background-color: #0B2434;
+  margin: 0px;
+  font-family: 'Karla', sans-serif;
+}
+main{
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.main-container{
+  width: 500px;
+  height: 600px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.container{
+  display: grid;
+  grid-template: auto auto / repeat(5 ,1fr);
+  gap: 20px;
+
+}
+.dice-container{
+  height: 60px;
+  width: 60px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.81277px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.dice-num{
+  font-size: 2rem;
+}
+button{
+  padding: 20px 40px;
+  color: white;
+  background-color: #5035FF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+  font-size: 1.2rem;
+}
+button:active{
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.instructions{
+  width: 350px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.title {
+  font-size: 40px;
+  margin: 0;
+}
